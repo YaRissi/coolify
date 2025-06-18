@@ -7494,6 +7494,17 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/SocialiteProviders/Clerk/zipball/41e123036001ff37851b9622a910010c0e487d6a",
                 "reference": "41e123036001ff37851b9622a910010c0e487d6a",
+            "name": "socialiteproviders/discord",
+            "version": "4.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SocialiteProviders/Discord.git",
+                "reference": "c71c379acfdca5ba4aa65a3db5ae5222852a919c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SocialiteProviders/Discord/zipball/c71c379acfdca5ba4aa65a3db5ae5222852a919c",
+                "reference": "c71c379acfdca5ba4aa65a3db5ae5222852a919c",
                 "shasum": ""
             },
             "require": {
@@ -7505,6 +7516,7 @@
             "autoload": {
                 "psr-4": {
                     "SocialiteProviders\\Clerk\\": ""
+                    "SocialiteProviders\\Discord\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7520,6 +7532,13 @@
             "description": "Clerk OAuth2 Provider for Laravel Socialite",
             "keywords": [
                 "clerk",
+                    "name": "Christopher Eklund",
+                    "email": "eklundchristopher@gmail.com"
+                }
+            ],
+            "description": "Discord OAuth2 Provider for Laravel Socialite",
+            "keywords": [
+                "discord",
                 "laravel",
                 "oauth",
                 "provider",
@@ -7531,6 +7550,11 @@
                 "source": "https://github.com/socialiteproviders/providers"
             },
             "time": "2024-02-19T12:17:59+00:00"
+                "docs": "https://socialiteproviders.com/discord",
+                "issues": "https://github.com/socialiteproviders/providers/issues",
+                "source": "https://github.com/socialiteproviders/providers"
+            },
+            "time": "2023-07-24T23:28:47+00:00"
         },
         {
             "name": "socialiteproviders/google",

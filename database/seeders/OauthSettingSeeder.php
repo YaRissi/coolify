@@ -18,6 +18,7 @@ class OauthSettingSeeder extends Seeder
                 'azure',
                 'bitbucket',
                 'clerk',
+                'discord',
                 'github',
                 'gitlab',
                 'google',
